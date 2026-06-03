@@ -386,7 +386,9 @@ color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-   
+  justify-content: center;
+  align-items: center;
+   gap: 10px;
  }
 
  .skillimg{
@@ -838,6 +840,8 @@ color: white;
 
 
 
+
+
 .hidden{
   border:2px solid;
   min-height: 100vh;
@@ -904,6 +908,10 @@ div span{
   align-self: cente;
 }
 
+.skillcan{
+  width: 90%;
+}
+
 
 .procan{
   border: px solid;
@@ -917,6 +925,9 @@ div span{
   border: transparen;
   
  }
+ .procan button{
+  display: none;
+}
 
  .propic{
   border: 1px solid;
